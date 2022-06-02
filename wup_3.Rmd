@@ -39,6 +39,12 @@ Based on the boxplot the back rows consumes more alcohol than both the front and
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+The mean for the back rows is three times as high as the middle rows and nearly five times as high as the front rows.
+
 ## Inferential Tests
 
 ## Conclusions
