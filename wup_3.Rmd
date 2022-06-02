@@ -47,6 +47,19 @@ The mean for the back rows is three times as high as the middle rows and nearly 
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+Since the p value from one way anova was such a small number we are going to follow up with a tukeyhsd.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+Since the confidence intervals of the front-back and the middle-back are beleow zero that shows they are significantly different.
+
 ## Conclusions
 
 
