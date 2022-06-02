@@ -62,4 +62,4 @@ Since the confidence intervals of the front-back and the middle-back are beleow 
 
 ## Conclusions
 
-
+The back rows consumed more alcohol than the middle and the front rows. This is evident by the mean of the back rows being significantly larger than that of the middle and front rows.
